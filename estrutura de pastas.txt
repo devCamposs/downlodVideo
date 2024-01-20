@@ -1,0 +1,40 @@
+projeto_youtube_downloader/
+│
+├── backend/                     # Código do backend em Python
+│   ├── src/
+│   │   ├── main.py             # Arquivo principal do backend
+│   │   ├── youtube_downloader/
+│   │   │   ├── __init__.py
+│   │   │   ├── downloader.py   # Módulo responsável pelo download do vídeo
+│   │   │   ├── youtube_api.py  # Módulo para interação com a API do YouTube
+│   │   │   └── ...              # Outros módulos relacionados
+│   │   └── ...
+│   │
+│   ├── requirements.txt        # Lista de dependências do backend
+│   └── ...
+│
+├── frontend/                    # Código do frontend em JavaScript, HTML, e CSS
+│   ├── public/
+│   │   ├── index.html          # Página principal
+│   │   └── ...
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── VideoDownloader.vue   # Componente responsável pela interface de download
+│   │   │   └── ...                  # Outros componentes
+│   │   ├── App.vue                  # Componente principal
+│   │   └── main.js                  # Arquivo principal do frontend
+│   │
+│   ├── assets/
+│   │   └── ...
+│   │
+│   ├── views/
+│   │   └── ...
+│   │
+│   ├── styles/
+│   │   └── ...
+│   │
+│   ├── package.json               # Configurações e dependências do frontend
+│   └── ...
+│
+└── docker-compose.yml            # Configurações para Docker Compose
